@@ -512,84 +512,164 @@
 
 <!--== Start Footer Area Wrapper ==-->
 <footer class="footer-area sp-y">
-    <div class="footer-top-wrap">
-        <div class="container">
-            <div class="footer-top-content">
-                <div class="row align-items-center">
-                    <div class="col-md-8 col-lg-6">
-                        <h2>Get Started Today</h2>
-                        <p>Businex always try to provide the best Business Solutions for Clinets to grow up their
-                            Business sharply and smoothly.</p>
-                    </div>
-                    <div class="col-md-4 col-lg-6 text-md-right mt-sm-25">
-                        <a href="contact.html" class="btn-outline">Contact Us</a>
+        <div class="footer-top-wrap">
+            <div class="container">
+                <div class="footer-top-content">
+                    <div class="row align-items-center">
+                        <div class="col-md-8 col-lg-6">
+                            <h2 style="color: #ee6e0a">Comienza hoy</h2>
+                            <p>Businex always try to provide the best Business Solutions for Clinets to grow up their
+                                Business sharply and smoothly.</p>
+                        </div>
+                        <div class="col-md-4 col-lg-6 text-md-right mt-sm-25"><button type="button" class="btn-footer" data-toggle="modal" data-target="#exampleModalCenter">
+                            Contactenos
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content" style="width: 100%">
+                                <div style="float:right !important;">
+                                <button data-dismiss="modal" style="width: 30px; height:30px; border-radius:100%; background-color:#ee6e0a; margin: 1%; color: white;">X</button>
+                                </div>
+                                <div class="modal-body" >
+                                    <div class="contact-content-wrap">
+                                        <div class="row">
+                                            <div class="col-lg-12 text-center">
+                                                <div class="contact-form-area contact-method">
+                                                    <h3>Envíanos un mensaje</h3>
+                            
+                                                    <div class="contact-form-wrap">
+                                                        <form action="assets/php/mail.php" method="post"
+                                                              id="contact-form">
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <div class="single-input-item">
+                                                                        <label>
+                                                                            <input type="text" name="first_name" placeholder="First Name *"
+                                                                                   required/>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                            
+                                                                <div class="col-md-6">
+                                                                    <div class="single-input-item">
+                                                                        <label>
+                                                                            <input type="text" name="last_name" placeholder="Last Name *" required/>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                            
+                                                                <div class="col-md-6">
+                                                                    <div class="single-input-item">
+                                                                        <label>
+                                                                            <input type="email" name="email_address" placeholder="Email address *"
+                                                                                   required/>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                            
+                                                                <div class="col-md-6">
+                                                                    <div class="single-input-item">
+                                                                        <label>
+                                                                            <input type="text" name="phone_no" placeholder="Your Phone"/>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                            
+                                                                <div class="col-12">
+                                                                    <div class="single-input-item">
+                                                                        <label for="con_message" class="sr-only m-0"></label>
+                                                                        <textarea name="con_message" id="con_message" cols="30" rows="7"
+                                                                                  placeholder="Message *" required></textarea>
+                                                                    </div>
+                            
+                                                                    <div class="single-input-item mb-0 mt-40">
+                                                                        <button class="btn-general">Enviar mensaje</button>
+                                                                    </div>
+                            
+                                                                    <div class="form-message"></div>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="footer-widget-area sm-top-wt">
-        <div class="container">
-            <div class="row mtn-40">
-                <div class="col-lg-4 order-4 order-lg-0">
-                    <div class="widget-item">
-                        <div class="about-widget">
-                            <a href="index.html"><img src="assets/img/logo-dark.png" alt="Logo"/></a>
-                            <p>During the summer my wife and I got to go on an amazing road trip in Vancouver.</p>
-
-                            <div class="copyright-txt">
-                                <p>&copy; 2019 Businex Ltd. All Rights Reserved.</p>
+    
+        <div class="footer-widget-area sm-top-wt">
+            <div class="container">
+                <div class="row mtn-40">
+                    <div class="col-lg-4 order-4 order-lg-0">
+                        <div class="widget-item">
+                            <div class="about-widget">
+                                <a href="index.html"><img src="assets/img/logo-sena.png" alt="Logo Sena"/></a>
+                                <a href="index.html"><img src="assets/img/logo-sennova.png" alt="Logo Sennova" style="margin-left: 50px"/></a>
+                                <p>During the summer my wife and I got to go on an amazing road trip in Vancouver.</p>
+    
+                                <div class="copyright-txt">
+                                    <p>&copy; 2019 Fabrica de software. Todos los derechos reservados.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 col-lg-2 ml-auto">
+                        <div class="widget-item">
+                            <h4 class="widget-title" style="color:#ee6e0a">Información</h4>
+                            <div class="widget-body">
+                                <ul class="widget-list">
+                                    <li><a href="#">Our company</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                    <li><a href="#">Our services</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 col-lg-2 ml-auto">
+                        <div class="widget-item">
+                            <h4 class="widget-title" style="color:#ee6e0a">Quick Links</h4>
+                            <div class="widget-body">
+                                <ul class="widget-list">
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="#">Dribbble</a></li>
+                                    <li><a href="#">Instagram</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 col-lg-3">
+                        <div class="widget-item">
+                            <h4 class="widget-title" style="color:#ee6e0a">Contacto</h4>
+                            <div class="widget-body">
+                                <address>
+                                    2005 Stokes Isle Apartment. 896, Washington 10010, USA <br>
+                                    https://example.com <br>
+                                    (+68) 120034509
+                                </address>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-4 col-lg-2 ml-auto">
-                    <div class="widget-item">
-                        <h4 class="widget-title">Information</h4>
-                        <div class="widget-body">
-                            <ul class="widget-list">
-                                <li><a href="#">Our company</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">Our services</a></li>
-                                <li><a href="#">Careers</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-lg-2 ml-auto">
-                    <div class="widget-item">
-                        <h4 class="widget-title">Quick Links</h4>
-                        <div class="widget-body">
-                            <ul class="widget-list">
-                                <li><a href="#">Facebook</a></li>
-                                <li><a href="#">Twitter</a></li>
-                                <li><a href="#">Dribbble</a></li>
-                                <li><a href="#">Instagram</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-lg-3">
-                    <div class="widget-item">
-                        <h4 class="widget-title">Contact</h4>
-                        <div class="widget-body">
-                            <address>
-                                2005 Stokes Isle Apartment. 896, Washington 10010, USA <br>
-                                https://example.com <br>
-                                (+68) 120034509
-                            </address>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
-    </div>
-</footer>
-<!--== End Footer Area Wrapper ==-->
+    </footer>
+    <!--== End Footer Area Wrapper ==-->
 
 <!-- Scroll Top Button -->
 <button class="btn-scroll-top"><i class="mdi mdi-chevron-up"></i></button>

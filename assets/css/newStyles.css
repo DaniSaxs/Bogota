@@ -2,6 +2,11 @@
     background: white !important; 
     padding: 5% !important;
     border-radius: 25px;
+    transition: 0.2s ease-in-out;
+}
+
+.logo1:hover{
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.5);
 }
 
 .cabeza>li>a{
@@ -12,3 +17,61 @@
 .sub>li>a:hover{
     background-color: #0c787a !important;
 }
+
+body{
+    scroll-behavior: smooth;
+}
+
+.white{
+    color: white;
+    text-align: center;
+}
+
+.black{
+    color: black;
+    text-align: center;
+}
+
+.Dflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#exito{
+    background-color: #d6d6d6 !important; 
+}
+
+.btn-footer{
+    border: 2px solid #ee6e0a;
+    border-radius: 100px;
+    color: #ee6e0a;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 18px 55px;
+
+}
+
+.btn-footer:hover{
+    background-color: #ee6e0a;
+    color: white;
+}
+
+.btn-general{
+    border: 2px solid #027e74;
+    border-radius: 100px;
+    color: #027e74;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 18px 55px;
+}
+
+.btn-general:hover{
+    background-color: #027e74;
+    color: white;
+}
+
