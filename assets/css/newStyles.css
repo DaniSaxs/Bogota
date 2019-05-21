@@ -1,0 +1,43 @@
+.logo1{
+    background: white !important; 
+    padding: 5% !important;
+    border-radius: 25px;
+    transition: 0.2s ease-in-out;
+}
+
+.logo1:hover{
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.5);
+}
+
+.cabeza>li>a{
+    font-size: 10px !important;
+    text-align: center;
+}
+
+.sub>li>a:hover{
+    background-color: #0c787a !important;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+.white{
+    color: white;
+    text-align: center;
+}
+
+.black{
+    color: black;
+    text-align: center;
+}
+
+.Dflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#exito{
+    background-color: #d6d6d6 !important; 
+}
